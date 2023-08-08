@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>www.bank.form</title>
+</head>
+<body style="background-color: wheat;">
+    <form action="#" method="POST">
+        {%csrf_token%}
+       
+        <div class="container">
+            <center>
+                <h1>welcome to my bank </h1>
+
+          
+          <lable for="accountno">accountno:</lable>
+          <input type="text" id="accountno" name="accountno" required><br><br>
+
+          <lable for="accountholder">accountholder:</label>
+          <input type="text" id="accountholder" name="accountholder" required><br><br>
+
+          <lable for="balance">balance:</label>
+          <input type="text" id="balance" name="balance" required><br><br>
+
+          
+          <button type="submit" class="registerbtn">submit</button>
+        </center>
+        </div>
+    </form>
+</body>
+</html>
